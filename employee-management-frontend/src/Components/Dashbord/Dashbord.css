@@ -1,0 +1,15 @@
+/* Dashboard.css */
+
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f2f5;
+  }
+  
+  .dashboard-container h1 {
+    font-size: 2rem;
+    color: #333;
+  }
+  

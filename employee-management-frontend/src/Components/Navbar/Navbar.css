@@ -1,0 +1,47 @@
+.Nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-size: larger;
+    height: 10dvh;
+}
+.active{
+transition: all .2s ease-in-out;
+
+color: red;
+}
+
+.Nav a{
+    text-decoration: none;
+font-weight: 600;
+position: relative;
+}
+
+.Nav a::after{
+position: absolute;
+content: '';
+background-color: black;
+width: 0px;
+height: 2px;
+bottom:-10px;
+left: 0px;
+transition: all .2s ease-in-out;
+}
+.Nav a:hover:after{
+    width: 100%;
+}
+
+
+.Nav button {
+    padding: 10px;
+    border-radius: 6px;
+    border: 0px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+      }
+
+.Nav button:hover {
+background-color: #193b5f;
+}
